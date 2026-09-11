@@ -5,7 +5,7 @@ const app = express();
 app.use(express.json());
 
 const TELEGRAM_BOT_TOKEN = '8174290649:AAE19TrudUvJCw-6t4_s-kgo288xCOgvXRk';
-const TELEGRAM_CHAT_ID = '-1002360533502'; // ✅ ВЕРНО
+const TELEGRAM_CHAT_ID = '-1002360533502';
 
 app.all('/jivo-webhook', async (req, res) => {
   try {
