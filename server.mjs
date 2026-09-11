@@ -5,7 +5,7 @@ const app = express();
 app.use(express.json());
 
 const TELEGRAM_BOT_TOKEN = '8174290649:AAHWsd3npj68BbWYN9-SEfJnJl98x_myzf4';
-const TELEGRAM_CHAT_ID = '-1002360533502'; // ИСПРАВЛЕНО: актуальный ID супергруппы
+const TELEGRAM_CHAT_ID = '-1002360533502'; // ✅ ВЕРНО
 
 app.all('/jivo-webhook', async (req, res) => {
   try {
